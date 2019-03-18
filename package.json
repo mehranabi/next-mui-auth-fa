@@ -1,0 +1,40 @@
+{
+  "name": "next-mui-auth-fa",
+  "version": "1.0.0",
+  "description": "NextJs application with MUI and smiple AUTH",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=1 next build"
+  },
+  "author": {
+    "name": "Mehran Abghari",
+    "email": "mehran.ab80@gmail.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "@zeit/next-css": "^1.0.1",
+    "formik": "^1.5.1",
+    "formik-material-ui": "^0.0.16",
+    "jss": "^9.8.7",
+    "jss-rtl": "^0.2.3",
+    "next": "^8.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-jss": "^8.6.1",
+    "react-number-format": "^4.0.7",
+    "react-text-mask": "^5.4.3",
+    "url-loader": "^1.1.2",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "webpack-bundle-analyzer": "^3.1.0"
+  }
+}
